@@ -8,14 +8,17 @@
     private static $db_user = 'root';
     private static $db_pass = '';
     protected $db_name = 'bbdd_agencia';
-*/
-
-	private static $db_host = 'drubuntu.com.mysql';
-    private static $db_user = 'drubuntu_com';
-    private static $db_pass = 'drubuntu!2013';
-    protected $db_name = 'drubuntu_com';
 	
 
+	*/
+
+
+	private static $db_host = '146.255.101.232';
+    private static $db_user = '2daw9';
+    private static $db_pass = 'alumnes';
+    protected $db_name = '2daw9_agencia';
+	
+	
     protected $query;
     protected $rows = array();
     private $conn;
