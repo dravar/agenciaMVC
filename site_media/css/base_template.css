@@ -1,0 +1,202 @@
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    color: #666666;
+    font-family: sans-serif;
+}
+
+#cabecera {
+    padding: 6px 6px 8px 6px;
+    background-color: #6699FF;
+    color: #ffffff;
+    height: 59px;
+}
+
+#error {
+    margin-top:  0px;
+    width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+#info {
+    margin-top:  0px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+#cabecera p{
+    float: right;
+    margin-right:30px;
+
+}
+
+#login {
+    margin-right: 20px;
+}
+
+
+#cabecera h1, h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+#menu {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4px 0px 4px 0px;
+}
+
+#menu a {
+    width: 100px;
+    background-color: #000000;
+    padding: 4px 8px 4px 8px;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    background-color: #6699FF;
+    color: #ffffff;
+}
+
+#mensaje {
+    margin: 20px;
+    border: 1px solid #990033;
+    background-color: #f4f4f4;
+    padding: 8px;
+    color: #990033;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#formulario {
+    margin: 0px 20px 10px 20px;
+    border: 1px solid #c0c0c0;
+    background-color: #f9f9f9;
+    padding: 8px;
+    text-align: left;
+}
+
+.item_requerid {
+    width: 150px;
+    height: 22px;
+    padding-right: 4px;
+    font-weight: bold;
+    float: left;
+    clear: left;
+    text-align: right;
+}
+
+.form_requerid {
+    height: 22px;
+    float: left;
+    clear: right;
+}
+
+input {
+   border: 1px solid #c0c0c0;
+}
+
+.form_button {
+    padding-top: 15px;
+    margin-left: 154px;
+    clear: both;
+}
+
+#enviar {
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background-color: #6699FF;
+}
+
+#login  input{
+	display: block;
+}
+
+#login {
+	display: block;
+	float: right;
+}
+
+#cab1 {
+	display: block;
+	float: left;
+}
+
+
+
+#listado{
+    display: inline-block;   
+     
+}
+
+#ofertas{
+    position: absolute;
+list-style-type:none;
+margin-left: 50px;
+ -webkit-border-radius: 9px;
+    background-color: #0080FF;
+    color: white;
+    font-family: sans-serif;
+     list-style-type:none;
+     width: 300px;
+     height: 400px;
+}
+
+#hoteles{
+    position: absolute;
+list-style-type:none;
+margin-left: 400px;
+ -webkit-border-radius: 9px;
+    background-color: #0080FF;
+    color: white;
+    font-family: sans-serif;
+     list-style-type:none;
+     width: 300px;
+     height: 400px;
+
+}
+
+#vuelos{
+    position: absolute;
+list-style-type:none;
+margin-left: 750px;
+ -webkit-border-radius: 9px;
+    background-color: #0080FF;
+    color: white;
+    font-family: sans-serif;
+     list-style-type:none;
+     width: 300px;
+     height: 400px;
+}
+
+ ul {
+    width:750px;
+    list-style-type:none;
+     margin-left:30px;
+    padding:0px;
+	
+	
+}
+
