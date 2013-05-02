@@ -7,7 +7,7 @@
 		if(isset($_POST['enviar'])) { 
     
 			$enviar = new Model;
-			$ultim = $enviar->generar_reserva($_SESSION['usuari']);//devielve el ultimo registro de reserva
+			$ultim = $enviar->generar_reserva($_SESSION['id_usuari']);//devielve el ultimo registro de reserva
 
 
 					 $carrito =  $_SESSION['carrito'];
@@ -25,15 +25,12 @@
 		} 
 
 
-
 		require_once('../views/vcarrito.php');
-
-
+		
 
 		} else {
 				$_SESSION['msg']  = "No tienes nada en el carrito";
-				
-		 header("location:../index.php");
+				 header("location:../index.php");
 		}//if no exs carrito
 
 
