@@ -35,6 +35,7 @@
 			
 	} else {
 		$_SESSION['msg']  = "Logueate para reservar.";
+		 header("location:../index.php");
 	}//si esta logueado
 
 	

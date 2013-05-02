@@ -41,24 +41,17 @@
 					}
 
 
-
-
-
-
-
-
-
 			$cont++;
 			}//while
-
-
 			
 		} else {
 			$_SESSION['msg']  = "No tienes nada reservado.";
+			 header("location:../index.php");
 		}//if no exs carrito
 
 } else {
 		$_SESSION['msg']  = "Logueate para reservar.";
+		 header("location:../index.php");
 }//si no estas logueado
 
 /*

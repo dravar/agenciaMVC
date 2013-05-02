@@ -27,7 +27,7 @@
 
 
 		require_once('../views/vcarrito.php');
-
+		 header("location:../index.php");
 
 
 
