@@ -27,12 +27,13 @@
 
 
 		require_once('../views/vcarrito.php');
-		 header("location:../index.php");
 
 
 
 		} else {
 				$_SESSION['msg']  = "No tienes nada en el carrito";
+				
+		 header("location:../index.php");
 		}//if no exs carrito
 
 
